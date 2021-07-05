@@ -1,0 +1,103 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#wlcm-section {
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.half-width {
+    width: 43%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+span {
+    color: orangered;
+} 
+
+.half-width button {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(45deg, orangered, sandybrown);
+    border: none;
+    padding: 10px 20px;
+} 
+
+
+
+.half-width img {
+    width: 80%;
+    padding-left: 50px;
+    left: 0;
+}
+
+#drime {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 150px;
+}
+
+.pr150 {
+    padding-right: 100px;
+}
+
+#experiences {
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    /* margin: 0 2%; */
+    padding-bottom: 150px;
+}
+
+.developer {
+    display: flex;
+    margin: 0 2%;
+}
+
+.experiences-text {
+    margin: 0 3%;
+    padding-left: 30px;
+    box-shadow: 5px 5px 16px #222;
+}
+
+.fullstrk {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(255, 0, 170), rgb(255, 0, 0));
+    border-image-slice: 1;
+}
+
+.baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
